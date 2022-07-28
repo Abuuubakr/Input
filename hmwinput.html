@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hmwinput.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Registration Details</legend>
+            <div class="ins">
+                <label for="un" class="mid">University: </label>
+                <input type="text" id="un">
+            </div>
+            <div class="ins">
+                <label for="in" class="mid">Institute: </label>
+                <input type="text" id="in">
+            </div>
+            <div>
+                <label for="br" class="mid">Branch: </label>
+                <select name="branch" id="br" aria-placeholder="--select--select">
+                    <option value="IT">IT</option>
+                    <option value="Math">Math</option>
+                    <option value="Physics">Physics</option>
+                </select>
+            </div>
+            <div>
+                <label for="deg" class="mid">Degree: </label>
+                <select name="degree" id="deg" aria-placeholder="--select--select">
+                    <option value="IT">IT</option>
+                    <option value="Math">Math</option>
+                    <option value="Physics">Physics</option>
+                </select>
+                <input type="radio" id="pr" name="ch">
+                <label for="pr">Pursuing</label>
+                <input type="radio" id="cl" name="ch">
+                <label for="cl">Completed</label>
+            </div>
+            <div>
+                <label for="av" id="cc" class="mid">Avarage CPI: </label>
+                <input type="number" id="av">
+                <label for="up">Upto</label>
+                <input type="number" id="up"> 
+                <label for="">Th Semester</label>
+            </div>
+            <div>
+                <label for="exp" class="mid">Experience: </label>
+                <input type="number" id="exp"><label for="">Years</label>
+            </div>
+            <div>
+                <label for="blog" id="web" class="mid">Your Website or blog: </label>
+                <input type="text" id="blog" placeholder="http://">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
